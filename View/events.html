@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- required to make website responsive to divice width change -->
+  <title>Computer Science Department | Graceland University</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/miscellaneous/site-icon.ico"/>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <link rel="stylesheet" type="text/css" href="css/event.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+</head>
+<body>
+  <!-- start of navigation bar -->
+  <header>
+    <nav id='header-nav' class='navbar mini_nav'>
+      <div class="container-fluid mini_nav">
+        <div id='main-menu' class="container mini_nav">
+          <div id="nav-button-container">
+            <span id="nav-toggle-tile"></span>
+          </div>
+          <a id="navbar-logo-link" href="/">
+          <div id="logo-container" class="">
+            <div class="container" id="logo"></div>
+            <div id="logo-text" class="container"><p>Graceland</p><p>Computer Science</p></div>
+          </div>
+          </a>
+          <!-- <div></div> -->
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="hidden" id="slide-nav-menu">
+    <div>
+      <li class="side-nav-option"><span>Menu</span></li>
+      <hr>
+      <a href="/about"><li class="side-nav-option side-nav-link"><span>About</span></li></a>
+      <hr>
+      <a href="/academics"><li class="side-nav-option side-nav-link"><span>Academics</span></li></a>
+      <hr>  
+      <a href="/professors"><li class="side-nav-option side-nav-link"><span>Faculty</span></li></a>
+      <hr>
+      <a href="/events"><li class="side-nav-option side-nav-link"><span>Events</span></li></a>
+      <hr>
+      <a href="/contact"><li class="side-nav-option side-nav-link"><span>Contact</span></li></a>
+      <hr>
+      <a href="/gallery"><li class="side-nav-option side-nav-link"><span>Gallery</span></li></a>
+      <hr>
+      <a href="/acm"><li class="side-nav-option side-nav-link"><span>ACM Club</span></li></a>
+      <hr>
+      <a href="/graduates"><li class="side-nav-option side-nav-link"><span>Graduates</span></li></a>
+      <hr>
+    </div>
+  </div>
+  <!-- End of navigation bar -->
+  <section id="main-content">
+    <div class="container-fluid">
+      <div class="container">
+
+
+    
+        <div class="row grid">
+          <div class="col-lg-12" id="table-container"> <!-- Event column div -->
+            <div>
+          <h2 class="grid-header align">Events</h2>
+
+          </div>
+          
+          <div class="input-group md-form form-sm form-1 pl-0">
+          <div class="input-group-prepend">
+          
+        </div>
+        <span class="input-group-text purple lighten-3" id="basic-text1"><i class="fa fa-search text-black"
+        aria-hidden="true" ></i>
+        <input class="form-control my-0 py-1" type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search" aria-label="Search">
+        </span>
+
+
+        </div>
+
+          
+          <table id ="postsTable"class="table table-striped table-bordered table-dark table-hover" style="text-align:left;">
+                      <tr>
+                        <th>Event</th>
+                        <th>Date </th>
+                        <th>Time</th>
+                      </tr>
+              
+                    </table>
+                    <button class="btn btn-primary" type="button" id="view-more-button">View More</button></div>
+
+
+                  
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- start of the footer section -->
+  <footer>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 footer-grid">
+            <div class="container">
+              <div class="footer-grid-header">About Graceland</div>
+              <div class="footer-grid-body">
+                <a href="https://www.graceland.edu/admissions" target="_blank">Admissions</a><br>
+                <a href="https://www.graceland.edu/financial-aid" target="_blank">Financial Aid</a><br>
+                <a href="https://www.graceland.edu/news-events/news" target="_blank">News</a><br>
+                <a href="https://www.graceland.edu/academics/undergraduate-programs" target="_blank">Undergraduate</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 footer-grid">
+            <div class="container">
+              <div class="footer-grid-header">Contact Us</div>
+              <div class="footer-grid-body">
+                <a href="tel: +6417845175">Phone: 641-569-7855</a><br>
+                <a href="mailto: csit@graceland.edu">Email: csit@graceland.edu</a><br>
+                <a href="tel: +6417845175">Fax: 641-784-5175</a><br>
+                <a href="#">Location: 1 University Pl, Lamoni, IA</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 footer-grid">
+            <div class="container">
+              <div class="footer-grid-header"></div>
+              <div class="footer-grid-body">
+                <a href="https://www.graceland.edu/" target="_blank"><img src="../images/miscellaneous/graceland-university-ft-logo.png" height="75" width="250" alt="graceland logo"></a>
+              </div>
+              <div class="footer-copyright text-center py-3 " id="creators">Website created by Nicholas Salazar and Tribikram Adhikari, class of 2018</div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+  </footer>
+  <!-- End of footer section -->
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/event.js"></script>
+    <script src="js/design.js"></script>
+</body>
+</html>
