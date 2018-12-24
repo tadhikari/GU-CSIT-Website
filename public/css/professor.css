@@ -1,0 +1,79 @@
+
+/*#prof1 {
+	background: url('kevin.jpg') no-repeat;
+	background-size: contain;
+}
+
+#prof2 {
+	background: url('park.jpg') no-repeat;
+	background-size: contain;
+}*/
+
+
+
+.person-picture-container {
+	/*text-align: center;*/
+	padding: 15px;
+	display: inline-block;
+}
+
+.person-picture-container > div {
+	/*text-align: center;*/
+	display: inline-flex;
+	margin: auto auto;
+}
+
+.person-picture {
+	height: 200px;
+	width: 160px;
+	/*border: 1px solid black;*/
+	background: url('../images/miscellaneous/no-photo.jpg') no-repeat;
+	background-size: 100% auto;
+	display: inline-flex;
+}
+
+.person-description {
+	margin-left: 20px;
+}
+
+h5.person-name {
+	font-family: 'aktiv-grotesk-bold';
+	font-weight: 100px;
+	margin-bottom: 0px;
+	color: #DAA520;
+}
+
+.person-title {
+	/*line-height: 20px;*/
+	font-family: 'aktiv-grotesk-extrabold';
+	padding-top: 7px;
+}
+
+.rest-information {
+	/*color: red;*/
+	font-family: aktiv-grotesk;
+}
+
+#about-the-faculty {
+	font-family: aktiv-grotesk;
+	font-size: 16px;
+	line-height: 1.62;
+}
+
+span a {
+	color: #015798;
+	text-decoration: underline !important;
+}
+
+
+@media only screen and (max-width: 479px){ 
+
+	.person-picture {
+
+		height: 110px;
+		width: 110px;
+	}
+
+	
+
+ }

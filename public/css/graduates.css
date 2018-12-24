@@ -1,0 +1,88 @@
+/*#professor-jumbotron {
+	
+	background-size: cover;
+	height: 800px;
+	background-position: 0 -90px;
+}*/
+
+/*#prof1 {
+	background: url('kevin.jpg') no-repeat;
+	background-size: contain;
+}
+
+#prof2 {
+	background: url('park.jpg') no-repeat;
+	background-size: contain;
+}*/
+
+
+.btn {
+    border:2px solid rgba(0,98,204,0.5);
+}
+
+#dropdownButton {
+
+	margin-bottom: 10px;
+
+}
+#folderSelect {
+
+	overflow-y: scroll;
+	max-height: 400px;
+	border-radius: 0px;
+
+}
+.person-picture-container {
+
+    padding: 15px;
+    display: inline-block;
+    /*border: 1px solid;*/
+}
+
+.person-picture-container > div {
+	/*text-align: center;*/
+	display: inline-flex;
+	margin: auto auto;
+}
+
+.person-picture {
+	height: 200px;
+	width: 160px;
+	/*border: 1px solid black;*/
+	background: url('../images/miscellaneous/no-photo.jpg') no-repeat;
+	background-size: 100% 100%;
+	display: inline-flex;
+}
+
+.person-description {
+	margin-left: 20px;
+}
+
+h5.person-name {
+	font-family: 'aktiv-grotesk-bold';
+	font-weight: 100px;
+	margin-bottom: 0px;
+	color: #DAA520;
+}
+
+.person-title {
+	/*line-height: 20px;*/
+	font-family: 'aktiv-grotesk-extrabold';
+	padding-top: 7px;
+}
+
+.rest-information {
+	/*color: red;*/
+	font-family: aktiv-grotesk;
+}
+
+#about-the-faculty {
+	font-family: aktiv-grotesk;
+	font-size: 16px;
+	line-height: 1.62;
+}
+
+span a {
+	color: #015798;
+	text-decoration: underline !important;
+}

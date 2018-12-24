@@ -1,0 +1,120 @@
+.image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*border: 1px solid #ebebeb;*/
+    margin: 5px;
+    display: inline-block;
+    border: 8px solid white;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 1s linear;
+  }
+
+.prev{
+	color: black;
+}
+
+
+.parent {
+
+  display: inline-block;
+  position: relative;
+  /*border: 1px solid black;*/
+  padding: 0px;
+  width: auto;
+}
+
+.checkBoxes {
+  display: inline-block;
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: 2px;
+  left: 2px;
+}
+
+.containerCheckBox {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.containerCheckBox input {
+  display: inline;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.containerCheckBox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.containerCheckBox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.containerCheckBox input:checked ~ .checkmark:after {
+  display: inline-block;
+}
+
+.containerCheckBox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#VGallery {
+
+  height: 1000px;
+  overflow-x: hidden;
+  overflow-y: scroll; 
+  margin-bottom: 20px;
+}
+
+.panel-body > div {
+
+  position: relative;
+
+}
+
+/*#image-delete {
+
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+
+}*/
