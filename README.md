@@ -10,6 +10,7 @@ To run the website locally on your machine, download the website. You need to ha
 The backend uses the following modules for the corresponding operations:
 
 bcrypt: Encrypt the saved passwords when creating new users and authenticating current users.
+
 body-parser: Helps with parsing JSON files from the ajax requests.
 config: Helps with deployment
 cookie-parser: Reads and parses jsonwebtokens that are stored in the browser's cookies.
