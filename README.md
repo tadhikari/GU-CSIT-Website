@@ -2,7 +2,6 @@
 ## Website for Graceland University's Computer Science Department
 ### Authors: Tribikram(Trinity) Adhikari & Nicholas Salazar
 
-This website is deployed and live on http://csit.graceland.edu
 
 The front-end implements Bootstrap 4 and Jquery while the back-end implements Node.js and MongoDB
 
