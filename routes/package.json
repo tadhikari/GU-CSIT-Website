@@ -14,7 +14,7 @@
     "config": "^2.0.1",
     "cookie-parser": "^1.4.3",
     "express-photo-gallery": "^1.0.9",
-    "file-type": "^10.4.0",
+    "file-type": "^16.5.4",
     "formidable": "^1.2.1",
     "fs": "0.0.1-security",
     "jsonwebtoken": "^8.4.0",
