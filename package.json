@@ -15,7 +15,7 @@
     "forever": "^0.15.3",
     "formidable": "^1.2.1",
     "joi": "^14.0.0",
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.0",
     "loadash": "^1.0.0",
     "mkdirp": "^0.5.1",
     "mongoose": "^5.3.3",
